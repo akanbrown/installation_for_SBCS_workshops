@@ -6,9 +6,9 @@ This is a tutorial on Git using GitHub created by the Stony Brook Computing Soci
 Used **Tech Talk - A Comprehensive Introduction** 
 
 ## Table of Contents
-[Linux/Unix] (#Linux Installation)
-[Mac OS X] (#OS X Installation)
-[Windows] (#Windows Installation)
+[Linux/Unix](#Linux-Installation)
+[Mac OS X](#OS-X-Installation)
+[Windows](#Windows-Installation)
 
 
 ## Installation
