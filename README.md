@@ -22,18 +22,19 @@ You can do this simply do this by typing `git` into your terminal if you have Li
 - [Windows] (#Windows Installation)
 
 
-###Linux/Unix Installation
+### Linux/Unix Installation
 * Update your machine packages:
 	* `sudo apt-get update`
 * Install git with apt-get
 	* `sudo apt-get install git`
 
-###OS X Installation
+### OS X Installation
 * If you have homebrew installed, you can install git:
 	* `brew install git`
 * If you do not have homebrew on your machine, you can install git here:
 	* [Git SCM] (https://git-scm.com/download/mac) - 
 
-###Windows Installation
+### Windows Installation
 * Download the Git SCM for Windows (Use Git Bash for more functionality.) 
 	* [Git SCM for Windows] (https://gitforwindows.org)
+* 
