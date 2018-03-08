@@ -59,6 +59,8 @@ Cheers and happy VMing! :tropical_fish:
 		- DO NOT Use a password you will forget. 
 		- If you forget your master password, from what I know, there is no way of recovering the password besides reinstalling you iso. 
 	- ![VM Fusion Finish](VM-fusion-screenshots/VM_finish.png)
+		- There are more settings you can fiddle with! 
+		- The default ones work for most, but if you need more space, you can allocate more.
 3. Let's see your VM!
 	- Open your VM, and if you did it correctly, you should get something like this: 
 	- ![VM Fusion Finish](VM-fusion-screenshots/Ubuntu-home.png)
