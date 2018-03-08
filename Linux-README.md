@@ -48,39 +48,39 @@ Cheers and happy VMing! :tropical_fish:
    - For simplicity, this guide will walk through the steps of downloading one of the most common and easiest OS to install: [Ubuntu] (https://www.ubuntu.com/download/desktop)
 
 2. Create a new VM in your Library
-	- ![VM Fusion Home] (VM-fusion-screenshots/VM_fusion_home.png)
+	- ![VM Fusion Home](VM-fusion-screenshots/VM_fusion_home.png "VM Fusion Home")
 		- Choose the "Install from disc image" option 
-	- ![VM Fusion Choose iso] (VM-fusion-screenshots/VM_choose_iso.png)
+	- ![VM Fusion Choose iso](VM-fusion-screenshots/VM_choose_iso.png)
 		- Navigate to the directory where your downloaded iso is and add it
-	- ![VM Fusion Create Account] (VM-fusion-screenshots/VM_create_account.png)
+	- ![VM Fusion Create Account](VM-fusion-screenshots/VM_create_account.png)
 		- Create your admin account!
 			- Display Name indicates the name of your account when you log in on the ubunt screen
 			- Account Name indicates what you're called in your terminal (go to extra notes to see the example picture of a VM made this way) 
 		- DO NOT Use a password you will forget. 
 		- If you forget your master password, from what I know, there is no way of recovering the password besides reinstalling you iso. 
-	- ![VM Fusion Finish] (VM-fusion-screenshots/VM_finish.png)
+	- ![VM Fusion Finish](VM-fusion-screenshots/VM_finish.png)
 3. Let's see your VM!
 	- Open your VM, and if you did it correctly, you should get something like this: 
-	- ![VM Fusion Finish] (VM-fusion-screenshots/Ubuntu-home.png)
+	- ![VM Fusion Finish](VM-fusion-screenshots/Ubuntu-home.png)
 		- Note "SBCS" is the display name of the main account.
 	- ![VM Fusion Finish] (VM-fusion-screenshots/Ubuntu-terminal.png)
 		- Note "bytes" is the name of the account in this terminal! 
 		- Also note, your password for 'sudo' is the password you used to make your VM. That is your administrative password by default.
 	
 4. Things you may want to know:
-	- ![VM Fusion Finish] (VM-fusion-screenshots/vm-fusion-suspend.png)
+	- ![VM Fusion Finish](VM-fusion-screenshots/vm-fusion-suspend.png)
 		- The pause symbol on the upper left corner of this screenshot stands for suspend. 
 		- What's cool about VM's is that you can suspend it (like sleeping a computer) and it will return to the same state you left it at when you suspended it
 		- You can also turn off the VM. 
 		- You may not have a pause symbol on your version of your VM tool but it is often an option you can find under the VM menu
-	- ![VM Fusion Finish] (VM-fusion-screenshots/vm-fusion-menu.png)
+	- ![VM Fusion Finish](VM-fusion-screenshots/vm-fusion-menu.png)
 		- Notice that there is an option for snapshots! 
 			- This is a handy tool for VM's in that it will save an virtual image of your virtual machine state which you can revert back to like a git commit. 
 			- Great for rolling upgrades in the industry
 		- Notice you can also configure different options such as USB, Network etc.
 			- It's important to note that when you plug in a USB, your USB will probably not automatically connect to the VM unless you specify it.
 		- Configuring your Internet:
-		- ![VM Fusion Finish] (VM-fusion-screenshots/ubuntu-network-wifi.png)
+		- ![VM Fusion Finish](VM-fusion-screenshots/ubuntu-network-wifi.png)
 			- You probably want to have access to the Internet on this Operating System.
 			- Go to the Network options on your VM menu
 				- Choose 'automated' or Host-only in order to connect your VM to the Internet
