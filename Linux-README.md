@@ -87,7 +87,7 @@ Cheers and happy VMing! :tropical_fish:
 		- ![VM Fusion Finish](VM-fusion-screenshots/ubuntu-network-wifi.png)
 			- You probably want to have access to the Internet on this Operating System.
 			- Go to the Network options on your VM menu
-				- Choose 'automated' or Host-only in order to connect your VM to the Internet
+				- Choose 'autodetect' or Host-only in order to connect your VM to the Internet
 				- This only works if your current machine is connected to the internet
 				- How does this work? 
 					- Here's the gist
