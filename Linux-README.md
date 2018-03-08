@@ -18,6 +18,7 @@ Cheers and happy VMing! :tropical_fish:
 ### What is Linux?
 - Watch a video for a brief intro to Linux: [What is Linux?](https://www.youtube.com/watch?v=zA3vmx0GaO8)
 
+## Getting Linux on a VM on your computer
 ### How do we get Linux on your computer? 
 - There are various ways of getting Linux on your computer. 
 	- Install a Virtual Machine (VM) to host your Linux OS. 
@@ -27,8 +28,8 @@ Cheers and happy VMing! :tropical_fish:
 		- You can mess up your computer if you are not aware of what you are doing.
 	- Overwrite your current OS. 
 		- Hate that Windows? Just get rid of it if you want. 
-		- There are pros and cons to any OS which is the reason most people do not go this route and choose one of the latter two options.
-		- We recommend not going this route unless your Operating System has utterly failed you... (i.e. your OS doesn't actually work anymore....) 
+		- There are pros and cons to any OS which is the reason most people do not go this route and choose one of the former two options.
+		- We recommend not going this route unless your Operating System has utterly failed you... Once overwritten, your Operating System (and all the data on it) will be hard or virtually impossible to recover
 
 ### The Guide to getting a Linux OS on your Virtual Machine		
 - A) Get a Virtual Machine (VM) 
@@ -40,8 +41,9 @@ Cheers and happy VMing! :tropical_fish:
 ### Steps after you install the VM:
 - Depending on what software you install, these steps will vary, but the concept and how each hypervisor/Virtual Machine works is roughly the same.
 - Note, I am doing this for a specific version of VMware Fusion so your interface may look different for each step. But you will get similar steps.  
-- ** Do not be afraid to play around with your Virtual Machine **
-	- Virutal Machines are often a great tool to use to test different things, so if your OS in your VM breaks, your computer still lives (most of the time... ;) )
+- **Do not be afraid to play around with your Virtual Machine**
+	- Virtual Machines are often a great tool to use to test different things, so if your OS in your VM breaks, your computer still lives (most of the time... ;) )
+	- If the OS in your Virtual Machine (i.e. the Guest OS) breaks, no worries, just delete it and spin up a new virtual machine with another iso of the OS! Of course, the data will be gone though, but hopefully you aren't using your virtual machine to save important information. (If you do, use snapshots and/or back up your important files somewhere else!)
 
 1. Download a iso image file of your favorite Linux OS
    - We recommend you start with a stable version of your Linux OS.
@@ -65,7 +67,7 @@ Cheers and happy VMing! :tropical_fish:
 	- Open your VM, and if you did it correctly, you should get something like this: 
 	- ![VM Fusion Finish](VM-fusion-screenshots/Ubuntu-home.png)
 		- Note "SBCS" is the display name of the main account.
-	- ![VM Fusion Finish] (VM-fusion-screenshots/Ubuntu-terminal.png)
+	- ![VM Fusion Finish](VM-fusion-screenshots/Ubuntu-terminal.png)
 		- Note "bytes" is the name of the account in this terminal! 
 		- Also note, your password for 'sudo' is the password you used to make your VM. That is your administrative password by default.
 	
@@ -90,4 +92,7 @@ Cheers and happy VMing! :tropical_fish:
 				- How does this work? 
 					- Here's the gist
 						- Imagine a magical wire connecting your host OS (your normal computer) to the Virtual Machine and giving your guest OS (on your VM) network abilities
+						
+						
+
 						
