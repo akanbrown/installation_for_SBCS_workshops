@@ -16,7 +16,7 @@ Cheers and happy VMing! :tropical_fish:
 ## Introduction
 
 ### What is Linux?
-- Watch a video for a brief intro to Linux: [What is Linux?] (https://www.youtube.com/watch?v=zA3vmx0GaO8)
+- Watch a video for a brief intro to Linux: [What is Linux?](https://www.youtube.com/watch?v=zA3vmx0GaO8)
 
 ### How do we get Linux on your computer? 
 - There are various ways of getting Linux on your computer. 
@@ -45,7 +45,7 @@ Cheers and happy VMing! :tropical_fish:
 
 1. Download a iso image file of your favorite Linux OS
    - We recommend you start with a stable version of your Linux OS.
-   - For simplicity, this guide will walk through the steps of downloading one of the most common and easiest OS to install: [Ubuntu] (https://www.ubuntu.com/download/desktop)
+   - For simplicity, this guide will walk through the steps of downloading one of the most common and easiest OS to install: [Ubuntu](https://www.ubuntu.com/download/desktop)
 
 2. Create a new VM in your Library
 	- ![VM Fusion Home](VM-fusion-screenshots/VM_fusion_home.png "VM Fusion Home")
