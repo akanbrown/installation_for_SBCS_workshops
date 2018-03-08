@@ -5,8 +5,8 @@ This is a tutorial on Git using GitHub created by the Stony Brook Computing Soci
 
 Used **Tech Talk - A Comprehensive Introduction** 
 
-## Table of Contents
-[Linux/Unix](#Linux-Installation)
+## Installation Table of Contents
+[Linux/Unix](#Linux-Unix-Installation) 
 [Mac OS X](#OS-X-Installation)
 [Windows](#Windows-Installation)
 
@@ -15,14 +15,7 @@ Used **Tech Talk - A Comprehensive Introduction**
 First, Open a Terminal Window and test if you have git. 
 You can do this simply do this by typing `git` into your terminal if you have Linux/Unix or Mac. 
 
-
-### Installation Table of Contents
-- [Linux/Unix] (#Linux Installation)
-- [Mac OS X] (#OS X Installation)
-- [Windows] (#Windows Installation)
-
-
-### Linux/Unix Installation
+### Linux Unix Installation
 * Update your machine packages:
 	* `sudo apt-get update`
 * Install git with apt-get
@@ -32,9 +25,8 @@ You can do this simply do this by typing `git` into your terminal if you have Li
 * If you have homebrew installed, you can install git:
 	* `brew install git`
 * If you do not have homebrew on your machine, you can install git here:
-	* [Git SCM] (https://git-scm.com/download/mac) - 
+	* [Git SCM](https://git-scm.com/download/mac) - 
 
 ### Windows Installation
 * Download the Git SCM for Windows (Use Git Bash for more functionality.) 
-	* [Git SCM for Windows] (https://gitforwindows.org)
-* 
+	* [Git SCM for Windows](https://gitforwindows.org)
